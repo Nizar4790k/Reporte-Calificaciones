@@ -39,7 +39,7 @@ public class Estudiante {
         int notaFinal = calcularNotaFinal();
         String notaLiteral =calcularNotaLiteral(notaFinal);
 
-        return matricula+"  "+asistencia+"      "+ primerParcial+"     "+practicas+"    "+examenFinal+"         "
+        return matricula+"  "+asistencia+"      "+ primerParcial+"     "+practicas+"        "+examenFinal+"        "
                 +notaFinal+"           "+notaLiteral;
     }
 
